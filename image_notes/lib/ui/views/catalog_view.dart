@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:image_notes/assets';
 import 'package:image_notes/ui/shared/custom_card.dart';
 
 
@@ -14,6 +15,7 @@ class CatalogView extends StatelessWidget {
         CustomCard(imagen: 'assets/Foto.png', name: 'DSC_068', rating: 3),
         CustomCard(imagen: 'assets/Foto.png', name: 'DSC_068', rating: 3),
         CustomCard(imagen: 'assets/Foto.png', name: 'DSC_068', rating: 3),
+        
       ]
     );
   }
